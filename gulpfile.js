@@ -119,7 +119,7 @@ function styles(){
 
 
 function htmlInclude() {
-	return src('app/pages/*.html')
+	return src('app/pages/*.html', 'app/components/*.html', 'app/components/**/*.html')
 	.pipe(include())
 	.pipe(dest('app'))
 	.pipe(browserSync.stream())

@@ -1,0 +1,17 @@
+.copy{
+
+	&__content{
+		grid-column: span 5;
+		color: $white;
+	}
+
+	&__link{
+		color: $accent;
+	}
+
+	&__year{
+		grid-column: 6/-1;
+		text-align: right;
+		color: $grey;
+	}
+}

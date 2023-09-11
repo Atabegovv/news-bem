@@ -5,8 +5,8 @@ html, body{
 body {
   font-family: primary, sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
+  font-size: 24px;
+  line-height: 28px;
   min-width: 320px;
 }
 .wrapper{
@@ -26,12 +26,13 @@ video{
   max-width: 100%;
 }
 .container{
-  max-width: 1200px;
-  padding: 0 15px;
+  max-width: 1445px;
+  padding: 0 5px;
   margin: 0 auto;
 }
-.container-fluid{
-  max-width: 1920px;
-  padding: 0 10px;
-  margin: 0 auto;
+
+.grid{
+	display: grid;
+	grid-template-columns: repeat(12, 101px);
+	gap: 20px;
 }
