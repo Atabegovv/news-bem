@@ -11,6 +11,7 @@
 
 	&__year{
 		grid-column: 6/-1;
+		align-self: end;
 		text-align: right;
 		color: $grey;
 	}

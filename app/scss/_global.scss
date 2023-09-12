@@ -36,3 +36,11 @@ video{
 	grid-template-columns: repeat(12, 101px);
 	gap: 20px;
 }
+
+.line-limit{
+	overflow: hidden;
+	display: -webkit-box;
+	line-clamp: 3; 
+	-webkit-line-clamp: 3; 
+	-webkit-box-orient: vertical;
+}
