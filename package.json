@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+	"homepage": "https://atabegovv.github.io/news-bem",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"predeploy": "gulp build",
+		"deploy": "gh-pages -d dist"
   },
   "author": "Atabegov",
   "license": "ISC",
@@ -14,6 +17,7 @@
     "@fancyapps/ui": "^4.0.27",
     "browser-sync": "^2.27.10",
     "del": "^6.1.1",
+    "gh-pages": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-babel": "^8.0.0",
